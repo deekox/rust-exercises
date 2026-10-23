@@ -1,0 +1,12 @@
+fn main() {
+    let x = plus_one(5);
+    println!("{x}");
+}
+
+fn plus_one(left: i32) -> i32 {
+    left + 1
+}
+    
+fn five() -> i32 {
+    5;
+}

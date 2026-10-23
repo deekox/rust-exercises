@@ -1,0 +1,9 @@
+fn main() {
+    let a = Box::new(3);
+    println!("{a}");
+
+    let b = a;
+    oj(b);
+    println!("{b}");
+}
+

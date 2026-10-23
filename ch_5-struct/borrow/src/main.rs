@@ -1,0 +1,17 @@
+struct MyStruct {
+    one: i32,
+    two: i32,
+}
+
+
+fn main() {
+    let mut s1 = MyStruct{one: 1, two: 2};
+
+    let m1 = &mut s1.one;
+    let i1 = &s1;
+
+//    *m1 += 1;
+//    *m2 += 2;
+
+//    println!("{} {}", m1, m2);
+}
